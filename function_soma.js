@@ -1,14 +1,12 @@
-// Listando todos os números inteiros abaixo de 10 que são múltiplos de 3 ou 5, ficamos com 3, 5, 
-// 6 e 9. A soma desses múltiplos é 23. Crie uma função que retorne a soma de todos os 
-// múltiplos de 5 ou 7 abaixo de 1000.
-
-somar(1000);
-function somar(limite) {
+//somar(1000);
+function somar(y, x) {
     multiplos = 0;
-    for (i = 0; i <= limite; i++) {
-        if (i % 7 == 0 || i % 5 == 0)
-            multiplos += 1;
+    for (let i = 0; i < 1000; i++) {
+        if (i % y == 0 || i % x == 0)
+            multiplos += i;
     }
+    return multiplos
 }
-console.log(multiplos);
 
+
+module.exports = somar
