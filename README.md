@@ -1,11 +1,8 @@
 # Modulo_20-Exercicio Resolvido.
 
+1.Dado um array numÃ©rico qualquer sem valores repetidos, descubra qual Ã© o Ã­ndice do maior 
+valor e o Ã­ndice do menor valor.
 
-1.Publicado na nova branch no mesmo repositório do modulo anterior.
-
-2.Dado um array numérico qualquer sem valores repetidos, descubra qual é o índice do maior 
-valor e o índice do menor valor.
-
-3.Listando todos os números inteiros abaixo de 10 que são múltiplos de 3 ou 5, ficamos com 3, 5, 
-6 e 9. A soma desses múltiplos é 23. Crie uma função que retorne a soma de todos os 
-múltiplos de 5 ou 7 abaixo de 1000.
+2.Listando todos os nÃºmeros inteiros abaixo de 10 que sÃ£o mÃºltiplos de 3 ou 5, ficamos com 3, 5, 
+6 e 9. A soma desses mÃºltiplos Ã© 23. Crie uma funÃ§Ã£o que retorne a soma de todos os 
+mÃºltiplos de 5 ou 7 abaixo de 1000.
